@@ -112,7 +112,7 @@ int main(){
 	cin>>input;
 	switch(input){
 		case 1:{
-			cout<<"Enter the value to insert"<<endl;
+			cout<<"Insert book in the library"<<endl;
 			cin>>insertvalue;
 			ll.insert(insertvalue);
 			ll.sort();
